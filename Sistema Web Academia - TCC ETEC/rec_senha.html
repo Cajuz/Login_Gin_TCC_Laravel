@@ -9,7 +9,7 @@
 </head>
 <body>
     <main class="container">
-        <form action="" method="POST">
+        <form action="" method="POST" id="recuperar-form">
             <h1>Recuperar Senha</h1>
             <p>Informe o seu e-mail para que possamos enviar as instruções de recuperação.</p>
 
@@ -18,12 +18,15 @@
                 <i class="bx bxs-envelope"></i>
             </div>
 
-            <button type="submit" class="login">Enviar Instruções</button>
+            <button onclick="msg()" type="submit" class="login">Enviar Instruções</button>
+            
 <br><br>
-            <p class="back-to-login">
-                <a href="login.html">Voltar para o login</a>
+            <p class="back-to-login" >
+                <a  href="login.html">Voltar para o login</a>
             </p>
         </form>
     </main>
+    <script src="Script/script.js"></script>
 </body>
 </html>
++

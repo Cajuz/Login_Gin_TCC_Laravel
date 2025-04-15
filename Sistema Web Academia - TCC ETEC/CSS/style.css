@@ -11,14 +11,14 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: url(https://img.freepik.com/premium-photo/modern-gym-interior-yellow-black-concept_832479-8388.jpg);
+    background-image: url(plano_fundo.png) ;
     background-size: cover;
     background-position: center;
 }
 
 .logo{
-height: 90px;
-width: 110px;
+height: 200px;
+width: 300px;
 margin-left: 10px ;
 }
 .colab{
@@ -199,4 +199,5 @@ margin-left: 10px ;
     color: #333;
     border-color: #fff;
 }
+
 

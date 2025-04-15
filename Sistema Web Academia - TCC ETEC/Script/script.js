@@ -20,3 +20,7 @@ function updateArrow() {
         arrowButton.classList.remove('opened');
     }
 }
+
+function msg() {
+    alert("Email enviado com Sucesso! Cheque sua caixa de mensagens");
+  }
